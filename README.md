@@ -6,7 +6,7 @@ Our project is an interactive web GIS application that visualizes ferry traffic 
 The ferry system is an essential part of daily life in Washington State, especially around Seattle, Bainbridge Island, and the surrounding islands. While ferry schedules and ridership statistics are widely available online, our project provides a spatial and animated representation of actual vessel movement. This allows users to view intensity, directionality, and changes in ferry activity by day or by hour in a way that is more intuitive than static text or tables.
 
 ## Project Goal
-The primary goal of this project is to use real-time and scheduled ferry data provided by WSDOT to create an accurate visual representation and animation of how the ferry system operates in the Puget Sound area. We aim to show one of the many ways people travel around the region, how frequently these systems are used, and how extensive and interconnected the ferry network is. Our application highlights these dynamics through interactive movement, terminal selection, and live-updating vessel information.
+The goal of this project is to use real-time data provided by WSDOT to give an accurate representation and animation of the ferry routes that are used in the Puget Sound area. The main message we want to convey is to show one of the many ways people travel around the Puget Sound area, how many people use these systems, and how extensive these systems are. 
 
 ## Application URL
 https://christiankaylanuw.github.io/flow_map_g328/
@@ -61,28 +61,29 @@ Below are screenshots of the main map interface and the About page included in o
 ### **Ferry Routes in Seattle**  
 https://geo.wa.gov/datasets/WSDOT::wsdot-ferry-routes/explore?location=47.590612%2C-122.422831%2C11.79  
 **Description:**  
-This dataset provides the spatial geometry of Washington State public car ferry routes, along with some tribal, private, and provincial services. Each route is represented as a line feature with attributes such as operator, State Route number, and route name. It is intended for mapping and reference purposes.
+The WSDOT Ferry Routes dataset is a geospatial vector layer that maps the linear paths of Washington State’s public car ferry routes, including some tribal, private, and provincial services. Each route is represented as a line feature with attributes such as operator, State Route number, and route name. The dataset is designed for reference and mapping purposes, not for navigation, and helps users visualize and analyze ferry transportation networks across Washington’s coastal and inland waters.
 
 ---
 
-### **Ferry Terminals & Routes (REST Service)**  
+### **Ferry Terminals & Routes**  
 https://data.wsdot.wa.gov/arcgis/rest/services/Shared/FerryRoutes/MapServer  
 **Description:**  
-This feature layer portrays scheduled car-ferry routes and known tribal, provincial, private, and passenger-only services. Each line feature includes attributes like operator (“Owner”), route number (“SR”), and a display label identifying connected terminals. Designed for GIS reference, the layer supports queries in formats including JSON and GeoJSON.
+The dataset for Washington State Department of Transportation (WSDOT) titled “Ferry Routes (Public & Private)” is a geospatial feature layer portraying the routes of ferry services operating in Washington State’s waters. Represented as vector line features (polyline geometry), it includes scheduled car-ferry routes as well as known tribal, private, provincial and passenger-only ferry services. Attributes for each route include the operator (“Owner”), the State Route number if applicable (“SR”), and a label identifying the route terminals (“Display”). The layer is intended for reference and mapping in GIS applications—not for navigation—and supports queries in standard formats like JSON and GeoJSON. 
 
 ---
 
 ### **WSDOT Ferry Schedule API**  
 https://www.wsdot.wa.gov/ferries/api/schedule/documentation/rest.html  
 **Description:**  
-This API returns real-time and scheduled sailing information including upcoming departures, route schedules, direction, valid schedule ranges, and alerts or service adjustments. It is intended for developers handling live ferry operations data. Access requires an API key from WSDOT.
+The WSDOT Ferry Schedule API is a web-based service that provides real-time and scheduled information for Washington State Ferries. Instead of static GIS data, it delivers time-based, transactional data such as upcoming sailings, route schedules, terminal-to-terminal connections, valid schedule date ranges, and any service adjustments or cancellations. The API also returns details on each ferry route for a given date, including departure times, direction, and day-type schedules. In addition, it provides alerts about disruptions or changes affecting specific sailings. This dataset is intended for developers building applications that need live or scheduled ferry information, and access requires an API key from WSDOT.
+
 
 ---
 
 ### **Custom Mapbox Basemap**  
 [https://api.mapbox.com/styles/v1/nancy324/cmhxwciko001u01sq7rf76i37.html](https://api.mapbox.com/styles/v1/nancy324/cmhxwciko001u01sq7rf76i37.html?title=view&access_token=pk.eyJ1IjoibmFuY3kzMjQiLCJhIjoiY21oMTEyejlmMDY1YzJycHVwYXVyZ2U1ZiJ9.YSOrhRs2Nuc7-00ALC3Q_w&zoomwheel=true&fresh=true#10.16/47.5851/-122.4341)  
 **Description:**  
-This is the custom basemap used in our web application. The map features a dark-mode, ferry-focused design for visualizing Puget Sound ferry routes. It includes simplified land and water layers, highlighted coastlines, custom city labels, and an imported SVG ferry icon used to display animated ferry movement.
+The link brings you to the preview of our basemap we are using for our website. The basemap is a custom map created in Mapbox. It is a dark-mode, ferry-focused map designed specifically for visualizing the Washington State ferry routes across Central Puget Sound. When the preview is open, search for Seattle, WA and you will be able to see the zoomed in portions of the layers we added in. This includes simplified land and water layers, the coastlines are highlighted, and we have a clean set of city names for geographic context. We also imported a custom SVG ferry icon so our final map can display moving ferries using the custom ferry icon we created. 
 
 ---
 
@@ -90,13 +91,13 @@ This is the custom basemap used in our web application. The map features a dark-
 
 ### **Mapbox GL JS**  
 https://docs.mapbox.com/mapbox-gl-js/guides/  
-Used to render the interactive map, display layers, apply the custom style, animate vessel movement, and handle all GeoJSON rendering.
+The link above reroutes to mapbox’s guide to Mapbox GL JS. Mapbox GL JS is a Javascript library for creating, customizing, and displaying maps in a web browser or client. This is used in this project to display a custom map of the general area of Seattle along with the travel paths for ferries and creating markers for terminals by implementing data in between mapbox style layers.
 
 ### **Mapbox Studio**  
-Used to design the custom dark-marine basemap and upload the custom ferry icon.
+The map that we used from the service “Mapbox”, which is a powerful mapping and location tool that allows users to create custom maps for a variety of different use cases. For our case, we used mapbox to create a map with the dark overlay to allow the users to clearly see the visible ferry routes and port information.
 
 ### **GitHub & GitHub Pages**  
-GitHub serves as the version control platform and project repository. GitHub Pages hosts the web application publicly, allowing the project URL to load the website directly from the repository’s main branch.
+GitHub is an open-source version control platform used for sharing and keeping track of software code and projects. GitHub is utilized in this project to keep track of code updates and provide a database for project members to pull newly updated code, as well as make the website publicly accessible by establishing the repository’s main branch as the development source under pages settings.
 
 ---
 
