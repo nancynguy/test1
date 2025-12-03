@@ -109,5 +109,4 @@ Data for the project was drawn from WSDOT’s open ferry terminal and route data
 ## AI Use Disclosure
 - ChatGPT was used to debug the Mapbox basemap when a layer was not loading correctly.  
 - ChatGPT generated the custom SVG ferry icon used for the moving markers and favicon.  
-- ChatGPT was referenced to create a structural skeleton for the `about.html` page; however, all written content was original.  
-- ChatGPT helped with organizing, formatting, and polishing the README structure.
+- ChatGPT was referenced to create a structural skeleton for the `about.html` page; however, all written content was original. 
