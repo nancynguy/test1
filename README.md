@@ -12,7 +12,9 @@ The primary goal of this project is to use real-time and scheduled ferry data pr
 https://christiankaylanuw.github.io/flow_map_g328/
 
 ## Favicon
-(Add your favicon image here in Markdown once placed in the assets folder.)
+Our custom favicon is a simplified version of our ferry icon. It is used across all pages of the application.
+
+![Favicon](imgs/mini_ferry_cutout.png)
 
 ---
 
