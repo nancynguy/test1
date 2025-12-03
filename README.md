@@ -19,9 +19,20 @@ Our custom favicon is a simplified version of our ferry icon. It is used across 
 </p>
 
 ---
+  
+## Screenshots
 
-## Screenshots  
-(Insert screenshots of each tab here once exported to your assets folder.)
+Below are screenshots of the main map interface and the About page included in our application.
+
+### Main Map View
+<p align="center">
+  <img src="imgs/screenshot1.png" alt="Main Map Screenshot" width="850">
+</p>
+
+### About Page
+<p align="center">
+  <img src="imgs/screenshot2.png" alt="About Page Screenshot" width="850">
+</p>
 
 ---
 
