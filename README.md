@@ -15,7 +15,7 @@ https://christiankaylanuw.github.io/flow_map_g328/
 Our custom favicon is a simplified version of our ferry icon. It is used across all pages of the application.
 
 <p align="left">
-  <img src="imgs/mini_ferry_cutout.png" alt="Favicon" width="200">
+  <img src="imgs/mini_ferry_cutout.png" alt="Favicon" width="250">
 </p>
 
 ---
