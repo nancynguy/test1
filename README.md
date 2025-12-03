@@ -65,7 +65,7 @@ This API returns real-time and scheduled sailing information including upcoming 
 ---
 
 ### **Custom Mapbox Basemap**  
-https://api.mapbox.com/styles/v1/nancy324/cmhxwciko001u01sq7rf76i37.html  
+[https://api.mapbox.com/styles/v1/nancy324/cmhxwciko001u01sq7rf76i37.html](https://api.mapbox.com/styles/v1/nancy324/cmhxwciko001u01sq7rf76i37.html?title=view&access_token=pk.eyJ1IjoibmFuY3kzMjQiLCJhIjoiY21oMTEyejlmMDY1YzJycHVwYXVyZ2U1ZiJ9.YSOrhRs2Nuc7-00ALC3Q_w&zoomwheel=true&fresh=true#10.16/47.5851/-122.4341)  
 **Description:**  
 This is the custom basemap used in our web application. The map features a dark-mode, ferry-focused design for visualizing Puget Sound ferry routes. It includes simplified land and water layers, highlighted coastlines, custom city labels, and an imported SVG ferry icon used to display animated ferry movement.
 
