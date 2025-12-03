@@ -23,7 +23,7 @@ https://christiankaylanuw.github.io/flow_map_g328/
 
 ## Main Functions
 - Custom dark-marine Mapbox basemap designed specifically for Puget Sound.
-- Legend explaining ferry routes and vessel movement.
+- A legend showing ferry terminals, ferry routes, and ferry vessels.
 - Custom SVG ferry icon used both as the favicon and for vessel markers.
 - Toggle between real-time vessel locations and simulated vessel movement.
 - Dropdown menu for selecting ferry terminals and zooming into them.
